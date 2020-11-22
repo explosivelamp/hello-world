@@ -1,0 +1,6 @@
+new = input("Number of New Videos :")
+old = input("Number of Oldies :")
+time = input("Rental Period in days:")
+onecost = (float(new) * 3.00) + (float(old) * 2.00)
+totalcost = onecost * int(time)
+print("Total: $" + str(totalcost))
